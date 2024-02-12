@@ -1,11 +1,6 @@
 <?php include "head.php" ?>
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero">
-  <div id="owl-example" class="owl-carousel">
-  <div class="owl-slide slide1"></div>
-  <div class="owl-slide slide2"></div>
-  <div class="owl-slide slide3"></div>
-</div>
+  <section id="hero" class="hero d-flex align-items-center">
   </section><!-- End Hero -->
   <main id="main">
     <!-- ======= About Section ======= -->

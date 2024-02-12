@@ -1,6 +1,6 @@
 <?php include "head.php" ?>
     <section class="common-top-banner">
-        <img src="assets/img/main-top-banner.jpg" alt="">
+        <img src="assets/img/expression-top-banner.jpg" alt="">
     </section>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">

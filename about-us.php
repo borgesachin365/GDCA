@@ -14,8 +14,7 @@
                 Gwalior Division is one of the oldest affiliates of MPCA. Game of cricket has deep roots in this region.
                 Gwalior happens to be the second venue where MPCA can host International matches. Capt. Roop Singh
                 Stadium has hosted 12 One Day International games between 1988 to 2010. Ranji Trophy final of 1996-97
-                was played here under floodlights. GDCA is also coming up with a new venue with world class facilities
-                on the outskirts of Gwalior.
+                was played here under floodlights. "As the second international venue under the auspices of MPCA, MPCA is developing an international stadium at Gwalior"
               </p>
             </div>
           </div>
@@ -32,7 +31,7 @@
             <div class="imgDiv">
               <img src="assets/img/jyotiraditya.jpg" alt="">
               <h4>Shri Jyotiraditya Scindia Ji</h4>
-              <strong>Patron and former President MPCA</strong>
+              <strong>Patron & Former President MPCA</strong>
             </div>
           </div>
         </div>
@@ -91,9 +90,7 @@
     </tr>
     <tr>
       <td>Vice President</td>
-      <td>Yuvraj Mahanaaryaman Scindia  <br>
-Dr. Rajendra Singh
-</td>
+      <td>Mahanaaryaman Scindia <br> Dr. Rajendra Singh</td>
     </tr>
      <tr>
       <td>Secretary</td>
@@ -109,7 +106,7 @@ Mr. B. K. Sharma
 </table>
 </div>
 </section>
-<section class="home-ground-section" style="background-color: #7171710d;">
+<!-- <section class="home-ground-section" style="background-color: #7171710d;">
     <h4>HomeGround of GDCA - Gwalior International Cricket Stadium</h4>
   <div class="container">
       <div class="row justify-content-around gx-0">
@@ -121,5 +118,5 @@ Mr. B. K. Sharma
         </div>
       </div>
   </div>
-</section>
+</section> -->
 <?php include "tail.php" ?>

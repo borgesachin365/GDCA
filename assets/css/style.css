@@ -550,8 +550,8 @@ align-items: center;
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
-  background-size: cover;
+  /* background: url(../img/hero-bg.png) top center no-repeat;
+  background-size: cover; */
 }
 
 .hero h1 {
@@ -606,10 +606,10 @@ align-items: center;
 }
 
 @media (max-width: 991px) {
-  .hero {
+  /* .hero {
     height: auto;
     padding: 235px 0 60px 0;
-  }
+  } */
 
   .hero .hero-img {
     text-align: center;
@@ -649,8 +649,8 @@ align-items: center;
   
 } */
 .logoimg{
-  width: 15%;
-  margin: 40px auto;
+  width: 20%;
+  margin: 35px auto;
   display: block;
 }
 .common-heading {
@@ -2541,6 +2541,70 @@ align-items: center;
 .footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
   color: #444444;
+}
+
+
+section.hero{
+  padding: 0;
+}
+.owl-carousel {
+  position: relative;
+  height: 100%;
+}
+.owl-carousel div:not(.owl-controls) {
+  height: 100%;
+}
+.owl-carousel .owl-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.owl-carousel .owl-slide.slide1{
+  background-image: url('../img/hero-bg1.jpg');
+}
+.owl-carousel .owl-slide.slide2{
+  background-image: url('../img/hero-bg.jpg');
+}
+.owl-carousel .owl-slide.slide3{
+  background-image: url('../img/hero-bg2.jpg');
+}
+.owl-carousel div.owl--text {
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  width: 20em;
+  height: 8em;
+  background: rgba(255, 255, 255, 0.5);
+}
+.owl-carousel .owl-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  zoom: 1;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 30px;
+  color: #FFF;
+  background: #000;
+  opacity: 0.6;
+  border-radius: 50px;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-prev {
+  left: 0.5em;
+}
+.owl-carousel .owl-controls .owl-buttons .owl-next {
+  right: 0.5em;
 }
